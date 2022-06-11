@@ -2,16 +2,19 @@
   "encoding": "UTF-8",
   "headers": {
     "/*": {
-      "X-Author": "andreeva.anna2909",
-      "Access-Control-Allow-Origin": "*"
+      "Access-Control-Allow-Origin": "*",
       "Content-Type": "text/html; charset=UTF-8",
-    }    
-    "/login/*": {
-      "Content-Type": "text/plain; charset=UTF-8",
-      "Access-Control-Allow-Origin": "*"
-    }    
+      "X-Author": "andreeva.anna2909"
+    },
     "/sample/*": {
-      "Content-Type": "text/plain; charset=UTF-8"
-    }
-  }
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "text/plain; charset=UTF-8",
+      "X-Author": "andreeva.anna2909"
+    },
+    "/login/*": {
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "text/plain; charset=UTF-8",
+      "X-Author": "andreeva.anna2909"
+    }    
+  }    
 }
